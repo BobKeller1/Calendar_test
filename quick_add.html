@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Calendar</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="styles_test.css">
+	
+
+</head>
+<body>
+
+	<header>
+		
+		<div class="header-cont">
+			<div id="control">
+				<button class="main-button" id="add">Добавить</button>
+				<button class="main-button" id="update">Обновить</button>
+				<img src="images\search.svg" id="search-icon">
+				<input type="text" name="" placeholder="Placeholder" id="search">
+				<div id="quick-event-conteiner">
+					<div class="decorate-quick">
+						<div class="arrow-up"></div>
+					</div>
+					<div class="quick-event">
+						<div class="close-quick"><img src="images/close.svg" id="close-quick"></div>
+						<div class="input-quick"><input type="text" name="" placeholder="25 ноября, Кутеж, Серж"></div>
+						<div class="cont-small-button-quick"><button class="small-button" id="quick-small-button">Создать</button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</header>
+
+	<main>
+		
+		<div id="conteiner">
+			<div class="month-row">
+				<button id="month-change-button1"><div id="box-arrow-left"><img src="images/arrow.svg"></div></button>
+				<label class="current-date">Ноябрь 2021</label>
+				<button id="month-change-button2"><div id="box-arrow-right"><img src="images/arrow1.svg"></div></button>
+				<button class="small-button ">Сегодня</button>
+			</div>
+
+			<table id="table">
+				<tr>
+					<td>
+						<div class="not-active">
+						<span class="heading">Понедельник, 27</span>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">Вторник, 28</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">Среда, 29</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td class="fill">
+						<div class="not-active">
+						<div class="heading">Четверг, 30</div>
+						<div class="title">Шашлыки</div>
+						<div class="description">
+						Филипп Коров,
+						Дмитрий Табасков
+						</div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">Пятница, 1</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">Суббота, 2</div>
+						<div class="title"></div>
+						<div class="description"></div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">Воскресенье, 3</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<div class="not-active">
+						<div class="heading">4</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td><div class="not-active">
+						<div class="heading">5</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td><div class="not-active">
+						<div class="heading">6</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td><div class="not-active">
+						<div class="heading">7</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td><div class="not-active">
+						<div class="heading">8</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td><div class="not-active">
+						<div class="heading">9</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td><div class="not-active">
+						<div class="heading">10</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<div class="not-active">
+						<div class="heading">11</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td><div class="not-active">
+						<div class="heading">12</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td><div class="not-active">
+						<div class="heading">13</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">14</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td class="fill">
+						<div class="not-active">
+						<div class="heading">15</div>
+						<div class="title">Летний лагерь</div>
+						<div class="description">Алексей Маральный</div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">16</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">17</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					
+				</tr>
+				<tr>
+					<td class="fill">
+						<div class="not-active">
+						<div class="heading">18</div>
+						<div class="title">Аква кутеж</div>
+						<div class="description">
+							Михаил Шустин,
+							Владимир Пупкин,
+							Дмитрий Медев
+						</div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">19</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">20</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">21</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">22</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">23</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">24</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<div class="not-active">
+						<div class="heading">25</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">26</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">27</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">28</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">29</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">30</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					<td>
+						<div class="not-active">
+						<div class="heading">31</div>
+						<div class="title"></div>
+						<div class="description"></div>
+						</div>
+					</td>
+					
+				</tr>
+
+
+			</table>
+
+			
+			
+
+
+	</main>
+
+</body>
+
+<script  src="script_quick_add.js"></script>
+</html>
